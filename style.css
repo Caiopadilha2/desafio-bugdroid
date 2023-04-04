@@ -42,6 +42,7 @@ header > h1 {
 
 header > p {
     color: white;
+    padding-bottom: 40px;
 }
 
 nav {
