@@ -1,0 +1,163 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+@font-face {
+    font-family: 'Android';
+    src: url('fontes/idroid.otf') format('opentype');
+    font-weight: normal;
+}
+
+:root {
+    --cor000: #ebe5c5;
+    --green100: #83e1ad;
+    --green200: #3ddc84;
+    --green300: #2fa866;
+    --green400: #1a5c37;
+    --green500: #063d1e;
+
+    --fonte-padrao: Arial, Verdana, Helvetica, sans-serif;
+    --fonte-destaque: 'Bebas Neue', 'cursive';
+    --fonte-android: 'Android', cursive;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color: var(--cor000);
+    font-family: var(--fonte-padrao);
+}
+
+header {
+    background-color: var(--green400);
+}
+
+header > h1 {
+    color: white;
+    font-family: var(--fonte-destaque);
+}
+
+header > p {
+    color: white;
+}
+
+nav {
+    background-color: var(--green500);
+}
+
+main {
+    background-color: white;
+}
+
+article > h1 {
+    font-family: var(--fonte-android);
+    color: var(--green500);
+
+}
+
+article > h2 {
+    font-family: var(--fonte-android);
+}
+
+footer {
+    background-color: var(--green500);
+    color: white;
+}
+
+
+/* * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+@font-face {
+    font-family: 'robo';
+    src: url('fontes/idroid.otf');
+}
+
+#cabecalho {
+    background-image: linear-gradient(to top, green, rgba(89, 236, 89, 0.785));
+    color: white;
+}
+
+.titulo {
+    text-align: center;
+    padding: 15px;
+}
+
+header > h1 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    padding: 5px;
+}
+
+nav > a {
+    margin: 10px;
+    text-decoration: none;
+    font: normal;
+    color: white;
+}
+
+nav > a:hover {
+    text-decoration: underline;
+    font-weight: bolder;
+}
+
+article {
+    width: 850px;
+    background-color: white;
+    margin: auto;
+    border-radius: 10px;
+}
+
+img {
+    margin: auto;
+    display: block;
+}
+
+div.video {
+    background-color: rgb(7, 139, 0);
+    margin: 0px -20px 30px -20px;
+    padding: 20px;
+    padding-bottom: 50%;
+    position: relative;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+.subtitulos {
+    font-family: 'robo';
+    padding: 20px;
+    color:rgba(17, 83, 17, 0.785)
+}
+
+
+article > p {
+    text-indent: 1.5em;
+    margin: 10px;
+    text-align: justify;
+}
+
+
+footer {
+    background-color: darkgreen;
+    color: white;
+    text-align: center;
+    padding: 3px;
+} */
